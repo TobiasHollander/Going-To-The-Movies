@@ -8,7 +8,7 @@ function initIncludes(){
 }
 
 function getMovieData(){
-  var url = "http://www.omdbapi.com/";
+  var uri = "http://www.omdbapi.com/";
   $.ajax({
     type: "GET",
     url: uri,
