@@ -4,11 +4,11 @@ $(document).ready(function(){
 });
 
 function initIncludes(){
-  $("#nav-include").load('/includes/nav.html');
+  $("#nav-include").load('./includes/nav.html');
 }
 
 function getMovieData(){
-  var uri = "http://www.omdbapi.com/";
+  var url = "http://www.omdbapi.com/";
   $.ajax({
     type: "GET",
     url: uri,
