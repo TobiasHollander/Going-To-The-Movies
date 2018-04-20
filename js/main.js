@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 function initIncludes(){
-  $("#nav-include").load('./includes/nav.html');
+  $("#nav-include").load('../includes/nav.html');
 }
 
 function getMovieData(){
