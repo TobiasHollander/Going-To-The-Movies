@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Shrikhand');
+
+body {
+  background-color: #F2A65A;
+}
+
+.container {
+  background-color: white;
+}
+
+.no-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#img-header {
+  height: 240px;
+  width: 100%;
+}
+
+#h1-text {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+}
+
+.wrapper-div {
+  background-color: #F58549;
+  margin:auto;
+  width: 50%;
+}
+
+#search-div {
+  background-color: #F58549;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+.movie-title {
+  background-color: #772F1A;
+}
+
+.card {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.material-icons {
+  text-align: center;
+  color: #5F6026;
+}
+
+.button-attributes {
+  background-color: #772F1A;
+  font-family: 'Raleway', sans-serif;
+}
